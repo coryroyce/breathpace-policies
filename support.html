@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Support and Help for Breath Pace - Get answers to common questions and contact us">
+    <title>Support - Breath Pace</title>
+    <style>
+        :root {
+            --primary-color: #1a472a;
+            --secondary-color: #2d5f3f;
+            --text-primary: #333;
+            --text-secondary: #666;
+            --background: #ffffff;
+            --section-bg: #f8f9fa;
+            --border-color: #e0e0e0;
+            --accent-color: #4a9d6f;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text-primary);
+            background-color: var(--background);
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid var(--border-color);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .tagline {
+            color: var(--text-secondary);
+            font-size: 1.1rem;
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            font-size: 1.75rem;
+            margin-top: 40px;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid var(--border-color);
+        }
+
+        h3 {
+            color: var(--secondary-color);
+            font-size: 1.3rem;
+            margin-top: 25px;
+            margin-bottom: 15px;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: var(--text-primary);
+        }
+
+        ul, ol {
+            margin-left: 30px;
+            margin-bottom: 20px;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        strong {
+            color: var(--primary-color);
+            font-weight: 600;
+        }
+
+        .faq-item {
+            background-color: var(--section-bg);
+            border-left: 4px solid var(--accent-color);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 4px;
+        }
+
+        .faq-question {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            font-size: 1.1rem;
+        }
+
+        .faq-answer {
+            color: var(--text-primary);
+        }
+
+        .contact-box {
+            background-color: var(--section-bg);
+            padding: 30px;
+            border-radius: 8px;
+            margin-top: 40px;
+            border: 2px solid var(--accent-color);
+        }
+
+        .contact-box h2 {
+            margin-top: 0;
+            border-bottom: none;
+        }
+
+        .contact-method {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: var(--background);
+            border-radius: 4px;
+        }
+
+        .contact-method strong {
+            display: block;
+            margin-bottom: 5px;
+        }
+
+        .quick-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .quick-link-card {
+            background-color: var(--section-bg);
+            padding: 25px;
+            border-radius: 8px;
+            border: 1px solid var(--border-color);
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .quick-link-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+
+        .quick-link-card h3 {
+            margin-top: 0;
+            margin-bottom: 10px;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            margin-top: 60px;
+            padding-top: 30px;
+            border-top: 2px solid var(--border-color);
+            text-align: center;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .version-info {
+            background-color: var(--section-bg);
+            padding: 15px;
+            border-radius: 4px;
+            margin: 20px 0;
+            font-size: 0.95rem;
+        }
+
+        @media (max-width: 600px) {
+            h1 {
+                font-size: 2rem;
+            }
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            .container {
+                padding: 20px 15px;
+            }
+
+            .quick-links {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Breath Pace Support</h1>
+            <p class="tagline">We're here to help you get the most out of your breathing practice</p>
+        </header>
+
+        <div class="quick-links">
+            <div class="quick-link-card">
+                <h3>📱 Getting Started</h3>
+                <p>New to Breath Pace? Learn how to set up your first breathing session and customize your practice.</p>
+            </div>
+            <div class="quick-link-card">
+                <h3>🎵 Audio & Haptics</h3>
+                <p>Configure audio cues, visual guides, and haptic feedback to match your preferences.</p>
+            </div>
+            <div class="quick-link-card">
+                <h3>🔒 Privacy & Data</h3>
+                <p>Your privacy is our priority. All data stays on your device. <a href="privacy-policy.html">Learn more</a></p>
+            </div>
+        </div>
+
+        <section id="faq">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: How do I create a custom breathing pattern?</div>
+                <div class="faq-answer">
+                    <p>A: To create a custom breathing pattern:</p>
+                    <ol>
+                        <li>Tap the settings icon in the app</li>
+                        <li>Navigate to "Custom Practice"</li>
+                        <li>Adjust the duration for each phase: Inhale, Hold after Inhale, Exhale, and Hold after Exhale</li>
+                        <li>Save your pattern and select it before starting your session</li>
+                    </ol>
+                    <p>You can create multiple custom patterns for different purposes like relaxation, focus, or sleep.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: What are the different audio cues?</div>
+                <div class="faq-answer">
+                    <p>A: Breath Pace offers three distinct audio guides:</p>
+                    <ul>
+                        <li><strong>Wave:</strong> Soothing ocean wave sounds that ebb and flow with your breath</li>
+                        <li><strong>Breath:</strong> Gentle breath sounds that guide your inhales and exhales</li>
+                        <li><strong>Gong:</strong> Calming singing bowl tones that mark breathing phases</li>
+                    </ul>
+                    <p>You can change the audio cue type in Settings → Session Experience.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: How does haptic feedback work?</div>
+                <div class="faq-answer">
+                    <p>A: Haptic feedback provides gentle vibration cues that guide you through each breathing phase. This allows you to practice with your eyes closed or without looking at the screen.</p>
+                    <p>To enable or disable haptics:</p>
+                    <ol>
+                        <li>Go to Settings → Session Experience</li>
+                        <li>Toggle "Haptic Feedback" on or off</li>
+                    </ol>
+                    <p>Note: Haptic feedback requires a physical iOS device and will not work in the simulator.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Can I change the session duration?</div>
+                <div class="faq-answer">
+                    <p>A: Yes! You can set session durations from 1 minute to 30 minutes:</p>
+                    <ol>
+                        <li>Open Settings</li>
+                        <li>Select "Session Duration"</li>
+                        <li>Choose your preferred duration using the time picker</li>
+                    </ol>
+                    <p>Start with shorter sessions (5-10 minutes) if you're new to breathing exercises.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: What are the preset breathing profiles?</div>
+                <div class="faq-answer">
+                    <p>A: Breath Pace includes several scientifically-backed breathing patterns:</p>
+                    <ul>
+                        <li><strong>Sleep & Relax (4-7-8):</strong> Breathe in for 4 seconds, hold for 7, exhale for 8. Great for falling asleep and deep relaxation.</li>
+                        <li><strong>Refresh (Deep Breathing 6-0-6-0):</strong> Six-second inhale and exhale with no holds. Perfect for energy and focus.</li>
+                        <li><strong>Box Breathing (4-4-4-4):</strong> Equal timing for all phases. Used by athletes and military for stress management.</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: How do I switch between visual guides?</div>
+                <div class="faq-answer">
+                    <p>A: Breath Pace offers two visual guides:</p>
+                    <ul>
+                        <li><strong>Flower Visual:</strong> A blooming flower animation that expands and contracts with your breath</li>
+                        <li><strong>Waveform Visual:</strong> Flowing wave patterns that visualize your breathing rhythm</li>
+                    </ul>
+                    <p>To switch: Go to Settings → Session Experience → Visual Guide and select your preference.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Does Breath Pace require an internet connection?</div>
+                <div class="faq-answer">
+                    <p>A: No! Breath Pace works completely offline. All features are available without an internet connection, making it perfect for airplane mode, travel, or areas with poor connectivity.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Is my breathing data private?</div>
+                <div class="faq-answer">
+                    <p>A: Absolutely. Breath Pace is designed with privacy at its core:</p>
+                    <ul>
+                        <li>All data stays on your device</li>
+                        <li>No data is sent to us or any third parties</li>
+                        <li>No analytics or tracking</li>
+                        <li>No account required</li>
+                    </ul>
+                    <p>Read our full <a href="privacy-policy.html">Privacy Policy</a> for details.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: How do I delete my data?</div>
+                <div class="faq-answer">
+                    <p>A: Since all data is stored locally on your device, you can delete it by:</p>
+                    <ol>
+                        <li><strong>Delete individual breathing profiles:</strong> Go to Settings and remove custom profiles</li>
+                        <li><strong>Delete all app data:</strong> Delete the Breath Pace app from your device (press and hold the app icon, then select "Remove App")</li>
+                    </ol>
+                    <p>We have no access to your data, so there's nothing to delete on our end.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: The app isn't playing audio. What should I do?</div>
+                <div class="faq-answer">
+                    <p>A: Try these troubleshooting steps:</p>
+                    <ol>
+                        <li>Check that your device isn't in Silent Mode (toggle the side switch)</li>
+                        <li>Increase your device volume</li>
+                        <li>Verify that "Audio Enabled" is turned on in Settings → Session Experience</li>
+                        <li>Make sure no Bluetooth devices are connected that might be routing the audio elsewhere</li>
+                        <li>Restart the app and try again</li>
+                    </ol>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: Can I use Breath Pace while using other apps?</div>
+                <div class="faq-answer">
+                    <p>A: Yes! Breath Pace supports background audio. You can start a breathing session and then switch to other apps. The audio guidance will continue to play, allowing you to practice while reading, journaling, or doing other activities.</p>
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question">Q: What iOS version do I need?</div>
+                <div class="faq-answer">
+                    <p>A: Breath Pace requires iOS 17.0 or later. This ensures you have access to the latest privacy features and performance optimizations.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="tips">
+            <h2>Tips for Your Practice</h2>
+
+            <div class="faq-item">
+                <h3>Getting Started</h3>
+                <ul>
+                    <li>Start with short 5-minute sessions and gradually increase duration</li>
+                    <li>Practice at the same time each day to build a habit</li>
+                    <li>Find a quiet, comfortable place where you won't be disturbed</li>
+                    <li>Sit or lie down in a comfortable position</li>
+                </ul>
+            </div>
+
+            <div class="faq-item">
+                <h3>Choosing the Right Pattern</h3>
+                <ul>
+                    <li><strong>For sleep:</strong> Use 4-7-8 breathing 10-15 minutes before bed</li>
+                    <li><strong>For stress relief:</strong> Box Breathing (4-4-4-4) helps calm your nervous system</li>
+                    <li><strong>For energy:</strong> Deep Breathing (6-0-6-0) increases oxygen and alertness</li>
+                    <li><strong>For focus:</strong> Create a custom pattern with longer exhales than inhales</li>
+                </ul>
+            </div>
+
+            <div class="faq-item">
+                <h3>Maximizing Benefits</h3>
+                <ul>
+                    <li>Close your eyes and focus solely on your breath</li>
+                    <li>Use haptic feedback to practice without visual guides</li>
+                    <li>Breathe through your nose when possible</li>
+                    <li>Don't force your breath—keep it natural and comfortable</li>
+                    <li>Practice consistently for best results (daily is ideal)</li>
+                </ul>
+            </div>
+        </section>
+
+        <div class="contact-box">
+            <h2>Contact Us</h2>
+            <p>Can't find the answer you're looking for? We're here to help!</p>
+
+            <div class="contact-method">
+                <strong>📧 Email Support</strong>
+                <p><a href="mailto:support@breathpace.app">support@breathpace.app</a></p>
+                <p>We typically respond within 48 hours.</p>
+            </div>
+
+            <div class="contact-method">
+                <strong>🐛 Report a Bug</strong>
+                <p>Found a bug or technical issue? Please email us with:</p>
+                <ul>
+                    <li>Your iOS version</li>
+                    <li>Device model (iPhone 15 Pro, iPad Air, etc.)</li>
+                    <li>Description of the issue</li>
+                    <li>Steps to reproduce the problem</li>
+                </ul>
+            </div>
+
+            <div class="contact-method">
+                <strong>💡 Feature Requests</strong>
+                <p>Have an idea for a new feature? We'd love to hear it! Email us your suggestions.</p>
+            </div>
+        </div>
+
+        <section id="resources">
+            <h2>Additional Resources</h2>
+            <ul>
+                <li><a href="privacy-policy.html">Privacy Policy</a> - Learn how we protect your data</li>
+                <li><strong>App Version:</strong> 1.0 (January 2026)</li>
+                <li><strong>Minimum iOS:</strong> 17.0</li>
+            </ul>
+        </section>
+
+        <div class="version-info">
+            <p><strong>Current Version:</strong> 1.0.0</p>
+            <p><strong>Last Updated:</strong> January 6, 2026</p>
+            <p><strong>Compatibility:</strong> iPhone and iPad running iOS 17.0 or later</p>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Breath Pace. All rights reserved.</p>
+            <p><a href="support.html">Support</a> | <a href="privacy-policy.html">Privacy Policy</a></p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Breath Pace - Privacy-First Breathing & Meditation App for iOS">
+    <title>Breath Pace - Breathing & Meditation</title>
+    <style>
+        :root {
+            --primary-color: #1a472a;
+            --secondary-color: #2d5f3f;
+            --text-primary: #333;
+            --text-secondary: #666;
+            --background: #ffffff;
+            --accent-color: #4a9d6f;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.7;
+            color: var(--text-primary);
+            background: linear-gradient(135deg, #1a472a 0%, #2d5f3f 100%);
+            min-height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 40px 20px;
+            padding: 50px 40px;
+            background-color: var(--background);
+            border-radius: 16px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.3);
+            text-align: center;
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 3rem;
+            margin-bottom: 10px;
+            font-weight: 700;
+        }
+
+        .tagline {
+            color: var(--text-secondary);
+            font-size: 1.3rem;
+            margin-bottom: 30px;
+        }
+
+        .description {
+            color: var(--text-primary);
+            font-size: 1.1rem;
+            margin-bottom: 40px;
+            line-height: 1.8;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 40px;
+        }
+
+        .link-button {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: var(--accent-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 1.1rem;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+
+        .link-button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(74, 157, 111, 0.4);
+        }
+
+        .link-button.secondary {
+            background-color: transparent;
+            color: var(--accent-color);
+            border: 2px solid var(--accent-color);
+        }
+
+        .link-button.secondary:hover {
+            background-color: var(--accent-color);
+            color: white;
+        }
+
+        .features {
+            text-align: left;
+            margin: 30px 0;
+        }
+
+        .features h2 {
+            color: var(--primary-color);
+            font-size: 1.5rem;
+            margin-bottom: 15px;
+            text-align: center;
+        }
+
+        .features ul {
+            list-style: none;
+        }
+
+        .features li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+        }
+
+        .features li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+            font-weight: bold;
+            font-size: 1.2rem;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding-top: 20px;
+            border-top: 1px solid #e0e0e0;
+            color: var(--text-secondary);
+            font-size: 0.9rem;
+        }
+
+        footer a {
+            color: var(--accent-color);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            .container {
+                padding: 40px 25px;
+                margin: 20px 10px;
+            }
+
+            h1 {
+                font-size: 2.5rem;
+            }
+
+            .tagline {
+                font-size: 1.1rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Breath Pace</h1>
+        <p class="tagline">Privacy-First Breathing & Meditation</p>
+
+        <p class="description">
+            Transform your breathing practice with guided exercises, beautiful visualizations, and immersive haptic feedback. Your privacy is protected—all data stays on your device.
+        </p>
+
+        <div class="features">
+            <h2>Why Breath Pace?</h2>
+            <ul>
+                <li>Three calming audio guides (Wave, Breath, Gong)</li>
+                <li>Beautiful visual animations</li>
+                <li>Customizable breathing patterns</li>
+                <li>Haptic feedback for eyes-free practice</li>
+                <li>100% offline - no internet required</li>
+                <li>Zero data collection - complete privacy</li>
+            </ul>
+        </div>
+
+        <div class="links">
+            <a href="support.html" class="link-button">Get Support</a>
+            <a href="privacy-policy.html" class="link-button secondary">Privacy Policy</a>
+        </div>
+
+        <footer>
+            <p>&copy; 2026 Breath Pace. All rights reserved.</p>
+            <p style="margin-top: 10px;">
+                <a href="support.html">Support</a> |
+                <a href="privacy-policy.html">Privacy</a>
+            </p>
+            <p style="margin-top: 20px; font-size: 0.85rem;">
+                Available on the App Store for iPhone and iPad<br>
+                Requires iOS 17.0 or later
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
