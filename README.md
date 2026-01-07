@@ -39,7 +39,7 @@ Breath Pace is a guided breathing and meditation app for iPhone and iPad that he
 ## 📧 Contact
 
 For questions or support:
-- **Email**: [support@breathpace.app](mailto:support@breathpace.app)
+- **Email**: [randolphsoftware+breathpacesupport@gmail.com](mailto:randolphsoftware+breathpacesupport@gmail.com)
 - **Support Page**: [breathpace-policies/support](https://coryrandolph.github.io/breathpace-policies/support.html)
 
 ## 📜 License
